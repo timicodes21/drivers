@@ -1,13 +1,142 @@
-body {
+body{
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #E5E5E5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* *{
+  background-color: #E5E5E5;
+} */
+
+.text-purple{
+  color: #934A5F;
+}
+
+.bg-purple{
+  background-color: #934A5F;
+}
+
+.bg-blue{
+  background-color: #57648C;
+}
+
+.text-blue{
+  color: #57648C;
+}
+
+.bg-lilac{
+  background-color: #C2B4D6;
+}
+
+.text-lilac{
+  color: #C2B4D6;
+}
+
+.bg-gray{
+  background-color: #E5E5E5;
+}
+
+.text-gray{
+  color: #E5E5E5;
+}
+
+.font-300{
+  font-weight: 300;
+}
+
+.font-500{
+  font-weight: 500;
+}
+
+.font-600{
+  font-weight: 600;
+}
+
+.font-700{
+  font-weight: 700;
+}
+
+.font-800{
+  font-weight: 800;
+}
+
+.font-14{
+  font-size: 14px;
+}
+
+.font-16{
+  font-size: 16px;
+}
+
+.font-18{
+  font-size: 18px;
+}
+
+.font-24{
+  font-size: 24px;
+}
+
+.font-32{
+  font-size: 32px;
+}
+
+.m-minus{
+  margin-top: -25px;
+}
+
+input::placeholder{
+  font-size: 12px;
+  color: #C2B4D6;
+}
+
+.search-button{
+  outline: none;
+  border: 2px solid transparent;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.save-btn{
+  border: none;
+  background: transparent;
+  border: 2px solid #57648C;
+}
+
+.cancel-btn{
+  border: none;
+  background: transparent;
+  border: 2px solid #df4759;
+}
+
+.select-btn{
+  border: none;
+  background: transparent;
+  border: 2px solid #e5e5e5;
+}
+
+input{
+  box-shadow: none !important;
+  font-size: 12px;
+}
+
+.details{
+  position: relative;
+}
+
+.delete-popup{
+  position: absolute;
+  top: 20vh;
+  left: auto;
+  text-align: center;
+  width: 90vw;
+  z-index: 1;
+}
+
+.mid-display{
+  background: #000;
+  opacity: 0.3;
 }
