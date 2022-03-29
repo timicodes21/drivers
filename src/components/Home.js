@@ -4,7 +4,11 @@ import { Link } from 'react-router-dom'
 import Tablehead from './Tablehead'
 
 const Home = () => {
-  const [list, setList] = useState(JSON.parse(localStorage.getItem("list")));
+  if(JSON.parse(localStorage.getItem("list"))){
+    var list = JSON.parse(localStorage.getItem("list"));
+  } else{
+    var list = [];
+  }
   const [filterList, setFilterList] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
   const [display, setDisplay] = useState(true);
